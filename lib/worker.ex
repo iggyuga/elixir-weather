@@ -6,7 +6,8 @@ defmodule Weather.Worker do
 			|> parse_response(temperature_option)
 		case result do
 			{:ok, temp} ->
-				"#{location}: #{temp}*#{String.capitalize(temperature_option)}"
+				"#{location}: #{temp}*#{String.capitalize(temperature_option)}
+				"
 			:error ->
 				"#{location} not found"
 		end
