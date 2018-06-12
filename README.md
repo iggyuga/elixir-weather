@@ -1,6 +1,6 @@
 # Weather
 
-**TODO: Add description**
+Example using Elixir to hit a web weather API
 
 ## Installation
 
